@@ -1,0 +1,16 @@
+#spring.datasource.url:jdbc:postgresql://localhost:5432/spring-advanced-task-1-2
+#spring.datasource.password:root123
+#spring.datasource.username:postgres
+#
+#jpa.hibernate.ddl-auto:create
+#jpa.hibernate.ahow-sql:true
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/spring-advanced-task-1-2
+    password: root123
+    username: postgres
+  jpa:
+   hibernate:
+     ddl-auto: update
+   show-sql: true
